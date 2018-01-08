@@ -14,5 +14,5 @@ THIS WILL ONLY WORK IF YOU'VE ALREADY SET UP AND RUN LETSENCRYPT ONCE! If you ha
 1. Edit `renew.py`: Set all of the variables in lines 14-36, and copy to your PythonAnywhere home directory.
 1. Edit `renew.sh`: Replace `YOUR_TLD_HERE` with your webapp's top-level domain and copy to the `letsencrypt/` directory.
 1. Edit `check.sh`: Replace `YOUR_TLD_HERE` with your webapp's top-level domain and copy to the `letsencrypt/` directory.
-* You may need to `chmod +x` `renew.sh` and `check.sh` after you've copied them if you're having trouble.
+ (You may need to `chmod +x` `renew.sh` and `check.sh` after you've copied them if you're having trouble.)
 1. Make a PythonAnywhere scheduled task pointing to `renew.py`. Daily is fine; it will only renew and send the emails when the certificate is close to expiration.
