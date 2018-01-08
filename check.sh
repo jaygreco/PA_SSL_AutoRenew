@@ -1,0 +1,1 @@
+echo $(openssl x509 -enddate -noout -in ~/letsencrypt/YOUR_TLD_HERE/cert.pem)

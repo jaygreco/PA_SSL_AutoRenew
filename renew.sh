@@ -1,0 +1,1 @@
+echo $(~/dehydrated/dehydrated --cron --domain YOUR_TLD_HERE --out . --challenge http-01)
